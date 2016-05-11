@@ -1,25 +1,22 @@
 package com.dubreuia.ui;
 
+import static com.dubreuia.model.Action.activate;
+import static com.dubreuia.model.Action.reformat;
+import static com.dubreuia.model.Action.reformatChangedCode;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+import javax.swing.*;
+
+import org.jetbrains.annotations.Nls;
+import org.jetbrains.annotations.Nullable;
+
 import com.dubreuia.model.Action;
 import com.dubreuia.model.Storage;
 import com.intellij.openapi.components.ServiceManager;
 import com.intellij.openapi.options.Configurable;
 import com.intellij.openapi.options.ConfigurationException;
-import com.intellij.openapi.wm.impl.status.TextPanel;
-import org.jetbrains.annotations.Nls;
-import org.jetbrains.annotations.Nullable;
-
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
-import static com.dubreuia.model.Action.activate;
-import static com.dubreuia.model.Action.reformat;
-import static com.dubreuia.model.Action.reformatChangedCode;
 
 public class Configuration implements Configurable {
 

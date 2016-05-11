@@ -1,13 +1,13 @@
 package com.dubreuia.ui;
 
-import com.dubreuia.model.Action;
-import com.intellij.ui.IdeBorderFactory;
+import static com.dubreuia.model.Action.compile;
 
-import javax.swing.*;
 import java.awt.*;
 import java.util.Map;
+import javax.swing.*;
 
-import static com.dubreuia.model.Action.compile;
+import com.dubreuia.model.Action;
+import com.intellij.ui.IdeBorderFactory;
 
 class BuildPanel {
 

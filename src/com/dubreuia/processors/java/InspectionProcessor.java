@@ -1,13 +1,9 @@
-package com.dubreuia.processors;
+package com.dubreuia.processors.java;
 
 import com.dubreuia.model.Action;
 import com.dubreuia.model.Storage;
-import com.intellij.codeInspection.GlobalInspectionContext;
-import com.intellij.codeInspection.InspectionEngine;
-import com.intellij.codeInspection.InspectionManager;
-import com.intellij.codeInspection.LocalInspectionTool;
-import com.intellij.codeInspection.ProblemDescriptor;
-import com.intellij.codeInspection.QuickFix;
+import com.dubreuia.processors.Processor;
+import com.intellij.codeInspection.*;
 import com.intellij.codeInspection.ex.InspectionToolWrapper;
 import com.intellij.codeInspection.ex.LocalInspectionToolWrapper;
 import com.intellij.openapi.application.ApplicationManager;

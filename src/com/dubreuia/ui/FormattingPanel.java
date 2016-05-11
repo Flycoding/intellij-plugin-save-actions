@@ -1,13 +1,16 @@
 package com.dubreuia.ui;
 
-import com.dubreuia.model.Action;
-import com.intellij.ui.IdeBorderFactory;
+import static com.dubreuia.model.Action.organizeImports;
+import static com.dubreuia.model.Action.rearrange;
+import static com.dubreuia.model.Action.reformat;
+import static com.dubreuia.model.Action.reformatChangedCode;
 
-import javax.swing.*;
 import java.awt.*;
 import java.util.Map;
+import javax.swing.*;
 
-import static com.dubreuia.model.Action.*;
+import com.dubreuia.model.Action;
+import com.intellij.ui.IdeBorderFactory;
 
 class FormattingPanel {
 

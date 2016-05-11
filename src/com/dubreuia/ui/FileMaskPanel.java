@@ -1,20 +1,16 @@
 package com.dubreuia.ui;
 
-import com.intellij.openapi.ui.InputValidator;
-import com.intellij.openapi.ui.Messages;
-import com.intellij.ui.AnActionButton;
-import com.intellij.ui.AnActionButtonRunnable;
-import com.intellij.ui.IdeBorderFactory;
-import com.intellij.ui.ToolbarDecorator;
-import com.intellij.ui.components.JBList;
-import org.jetbrains.annotations.NotNull;
-
-import javax.swing.*;
-import java.util.Collection;
-import java.util.Enumeration;
-import java.util.Set;
+import java.util.*;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
+import javax.swing.*;
+
+import org.jetbrains.annotations.NotNull;
+
+import com.intellij.openapi.ui.InputValidator;
+import com.intellij.openapi.ui.Messages;
+import com.intellij.ui.*;
+import com.intellij.ui.components.JBList;
 
 class FileMaskPanel extends JPanel {
 
